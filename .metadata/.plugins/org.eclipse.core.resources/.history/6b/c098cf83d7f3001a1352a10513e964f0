@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+package hello;
+
+public class Add2 {
+	public static void main(String args[])
+	{
+		Scanner input = new Scanner(System.in)
+	}
+}
