@@ -1,5 +1,6 @@
 package hello;
 
+
 import java.util.Scanner;
 
 public class Add2 {
