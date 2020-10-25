@@ -8,7 +8,8 @@ interface Drawable_multi
 	void draw();
 }
 
-//인터페이스 다중 상속.
+//인터페이스 다중 참조로 다중 상속 구현.
+//클래스는 하나만 상속되는데 인터페이스는 다중 참조 가능
 class Circle_Multi_interface implements Printable_multi, Drawable_multi
 {
 	public void print() 
