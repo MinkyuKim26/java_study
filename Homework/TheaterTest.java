@@ -8,10 +8,10 @@ class Theater
 	//디폴트 생성자
 	public Theater()
 	{
+		//좌석 초기화
 		//정수 배열은 별다른 명시가 없으면 0으로 초기화
 		chair_A = new int[10];
 		chair_B = new int[10];
-		
 	}
 	//filled_chair_num만큼 각 랭크별 좌석을 랜덤으로 채운 상태로 극장 객체 생성하는 생성자
 	public Theater(int filled_chair_num)
@@ -83,7 +83,10 @@ class Theater
 	//예약
 	public void reservation(Scanner sc)
 	{
+		//예메 하고자 하는 좌석 등급, 번호
 		int want_chair_rank = 0, want_chair_num = 0;
+		
+		//정보 표시
 		show_reservation_info();
 		System.out.println("좌석 예약을 진행합니다.");
 		boolean isReserve = false, isRankOK = false, isNumOK = false;
